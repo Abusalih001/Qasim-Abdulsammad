@@ -31,4 +31,4 @@ Qasim Abdulsammad
 
 ## Contact
 
-For any inquiries or feedback, please contact: [your-email@example.com]
+For any inquiries or feedback, please contact: [qasimabdulsomod@gmail.com]
