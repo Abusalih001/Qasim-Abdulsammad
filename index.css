@@ -431,7 +431,7 @@ footer{
 
 
 
-@media screen and (max-width: 348px),(max-width: 576px){
+@media screen and (max-width: 348px),(max-width: 900px){
 
     header{
         display: flex;
