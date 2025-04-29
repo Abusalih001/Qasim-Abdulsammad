@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(3, 77, 31, 0.377);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +9,8 @@
   font-family: "Scada", sans-serif;
   font-weight: 400;
   font-style: normal;
+  transition: ease-in-out;
+  transition-duration: 2s;
 }
 
 header {
@@ -111,6 +117,8 @@ section .second .outer-box {
   bottom: 8rem;
   box-sizing: border-box;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.01), 0 4px 5px 0 rgba(0, 0, 0, 0.12);
+  transition: ease-in-out;
+  transition-duration: 2s;
 }
 section .second .outer-box .header {
   font-weight: bold;
@@ -412,21 +420,24 @@ footer .least .icons_footer #icon5 {
   border-radius: 2rem;
 }
 
-@media (min-width: 901px) and (max-width: 1150px) {
+@media (min-width: 901px) and (max-width: 1225px) {
   footer .float {
     display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    width: 90%;
-    position: relative;
-    top: 9rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem 2rem 4rem;
+    width: 99%;
   }
   footer .float .float_content {
     font-weight: 500;
     text-align: center;
   }
+  footer .float a {
+    padding: 0.7rem 0.9rem;
+  }
   footer .float a.anchor_float {
-    border-radius: 4rem;
+    border-radius: 6rem;
   }
 }
 @media (min-width: 300px) and (max-width: 900px) {
@@ -450,10 +461,11 @@ footer .least .icons_footer #icon5 {
   }
   header .nav nav ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 3px;
+    gap: 2px;
+    margin-right: 1rem;
   }
   section {
     text-align: center;
@@ -642,14 +654,16 @@ footer .least .icons_footer #icon5 {
   footer .float {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2.5rem;
     width: 90%;
     position: relative;
     top: 9rem;
+    padding: 1rem 2rem 3rem 2rem;
   }
   footer .float .float_content {
     font-weight: 500;
     text-align: center;
+    padding-top: 0.5rem;
   }
   footer .float a.anchor_float {
     border-radius: 4rem;
