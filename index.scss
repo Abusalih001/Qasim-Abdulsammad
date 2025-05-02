@@ -1,5 +1,6 @@
 body{
     background-color: #4dc24962;
+    /* overflow: hidden; */
 }
 *{
     margin: 0;
@@ -624,6 +625,9 @@ footer{
                 border-radius: 25px;
                 position: relative;
                 bottom: 3rem;
+                margin-left: 30px;
+                margin-right: 30px;
+                
 
                 .header{
                     font-weight: bold;
