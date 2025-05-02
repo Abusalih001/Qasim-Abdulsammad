@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(3, 77, 31, 0.377);
+    background-color: #4dc24962;
 }
 *{
     margin: 0;
@@ -56,12 +56,13 @@ header{
             a{
                 text-decoration: none;
                 color: green;
+                font-weight: bold;
 
                 &:active{
                     color: greenyellow;
                 }
                 &:visited{
-                    color: blue;
+                    color: rgb(7, 75, 7);
                 }
             }
         }
@@ -350,20 +351,7 @@ section{
             ul{
                 list-style: none;
 
-                li{
-                    &#quzzy{
-                        margin-bottom: 5.89rem;
-                    }
-
-                    &#udemy{
-                        margin-top: 5.2rem;
-                    }
-
-                    &#queen_img{
-                        box-sizing: border-box;
-                        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.01), 0 4px 5px 0 rgba(0, 0, 0, 0.72);
-                    }
-                }
+            
                 
 
                 .acad_logo{
@@ -371,16 +359,15 @@ section{
                     border-radius: 7rem;
                 }
                 p{
-                    background-color: rgb(8, 59, 8);
                     padding: .5rem .5rem;
-                    color: white;
+                    color: rgb(14, 34, 14);
                     font-size: larger;
                     margin-top: .5rem;
                     margin-bottom: 2rem;
                     border-radius: .3rem;
                     border: none;
-                    box-sizing: border-box;
-                    box-shadow:  0 6px 12px 0 rgba(0, 0, 0, 0.01), 0 4px 5px 0 rgba(0, 0, 0, 0.72);
+                    font-weight: bold;
+
                 }
             
             }
@@ -568,13 +555,25 @@ footer{
                 /* padding-right: 20px; */
             
                     nav{
+                        
                         ul{
                            display: flex;
                            flex-direction: row;
                            align-items: center;
                            justify-content: space-between;
-                           gap: 2px;
+                           gap: 6px;
                            margin-right: 1rem;
+                           
+                        }
+                        li{
+                            
+                            &#say_hello{
+                                border: none;
+                                padding: 0 .5rem 0 1rem;
+                                
+            
+            
+                            }
                         }
                     }
                 }
@@ -587,10 +586,13 @@ footer{
         .top{
             margin-top: 3rem;
             h1{
-                font-size: 4.2vw;
+                font-size: 3rem;
+                text-align: center;
+                padding: 0 1rem 0 1rem;
             }
             p{
-                font-size: 2.5vw;
+                font-size: 4.5vw;
+                padding: 0 1rem 0 1rem;
             }
             img{
                 width: 35vw;
@@ -688,9 +690,14 @@ footer{
                display: flex;
                flex-direction: column;
                gap: .5rem;
+               
+               h2{
+                font-weight: bold;
+                font-size: 2rem;
+               }
     
                p{
-                font-size: 2.5vw;
+                font-size: 1rem;
                }
        
                #mailto{
@@ -786,37 +793,21 @@ footer{
                 ul{
                     list-style: none;
     
-                    li{
-                        &#quzzy{
-                            margin-bottom: 5.89rem;
-                        }
-    
-                        &#udemy{
-                            margin-top: 5.2rem;
-                        }
-    
-                        &#queen_img{
-                            box-sizing: border-box;
-                            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.01), 0 4px 5px 0 rgba(0, 0, 0, 0.72);
-                        }
-                    }
-                    
     
                     .acad_logo{
                         width: 15rem;
                         border-radius: 7rem;
                     }
                     p{
-                        background-color: rgb(8, 59, 8);
                         padding: .5rem .5rem;
-                        color: white;
+                        color: rgb(21, 48, 21);
                         font-size: larger;
                         margin-top: .5rem;
                         margin-bottom: 2rem;
                         border-radius: .3rem;
                         border: none;
-                        box-sizing: border-box;
-                        box-shadow:  0 6px 12px 0 rgba(0, 0, 0, 0.01), 0 4px 5px 0 rgba(0, 0, 0, 0.72);
+                        font-weight: bold;
+                        
                     }
                 
                 }
